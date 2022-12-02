@@ -1,0 +1,73 @@
+body{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logbar{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.card text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-3{
+    padding: 40px 0;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label{
+    position: relative;
+    margin: 10px;
+}
+
+label{
+    align-items: center;
+    font-size: 16px;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+input{
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+.btn-outline-primary{
+    border: none;
+    display: block;
+    /* width: 80%; */
+    margin: 10px auto;
+    /* height: 40px;
+    font-size: 16px; */
+    cursor: pointer;
+}
+
+.text-bg-secundary{
+    font-size: small;
+    font-style: italic;
+}
+
+.logolim{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+}
